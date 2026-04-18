@@ -91,12 +91,21 @@ footer {
   width: 100%;
 }
 
-.card h4 {
-  color: #ffffff;
+/* Normal card text */
+.card h4,
+.card h5 {
+  color: #1f2937;
 }
 
 .card p {
-  color: #e5e7eb;
+  color: #6b7280;
+}
+
+/* Hero cards only */
+.hero .card h4,
+.hero .card h5,
+.hero .card p {
+  color: #ffffff;
 }
 
 /* Default card text (for light background like About page) */
